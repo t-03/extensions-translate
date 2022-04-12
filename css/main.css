@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 5px;
+}
+
+body {
+  min-width: 240px;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+
+.switch {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.switch a {
+  display: block;
+  color: aliceblue;
+  color: #666;
+  text-decoration: none;
+  outline: none;
+}
+
+.sw-tips {
+  min-width: 40px;
+  height: 14px;
+  border: 1px solid #ccc;
+  border-radius: 35px 35px 35px 35px;
+  display: flex;
+  align-items: center;
+}
+.cir {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.active {
+  color: #fff;
+  background: #07c160;
+  /* #ff5a5f */
+}

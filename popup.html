@@ -3,34 +3,19 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Getting Started Extension's Popup</title>
-  <style>
-    body {
-      min-width: 357px;
-      overflow-x: hidden;
-    }
-
-    img {
-      margin: 5px;
-      border: 2px solid black;
-      vertical-align: middle;
-      width: 75px;
-      height: 75px;
-    }
-  </style>
-
-  <!--
-21	      - JavaScript and HTML must be in separate files: see our Content Security
-22	      - Policy documentation[1] for details and explanation.
-23	      -
-24	      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
-25	     -->
-  <!-- <script src="popup.js"></script> -->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-  <div>hellowrold</div>
-  <a href="options.html" target="_blank" tabIndex="-1" class="btn btn-primary btn-xs">跳转设置</a>
+  <div class="switch">
+    <div class="sw-name">
+      <!-- <a href="javascript:;" target="_blank">打开设置</a> -->
+      <a href="./options.html" target="_blank">打开设置</a>
+    </div>
+    <div class="sw-tips">
+      <div class="cir active"></div>
+    </div>
+  </div>
 </body>
 
 </html>
